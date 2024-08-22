@@ -1,0 +1,7 @@
+MathJax.Ajax.config.path["arabic"] = "https://cdn.rawgit.com/Edraak/arabic-mathjax/v1.0/dist";
+
+MathJax.Hub.Config({
+    extensions: [
+        "[arabic]/arabic.js"
+    ]
+});
